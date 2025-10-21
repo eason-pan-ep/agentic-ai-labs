@@ -23,3 +23,12 @@ An agentic workflow that generates data visualizations through iterative refinem
 - **Refine**: LLM generates improved code based on visual feedback
 
 **Key Concepts**: Code generation, vision models, reflection loops
+
+### Lab 2: SQL Generation with Reflection
+An agentic workflow that improves SQL query generation through iterative refinement and external feedback:
+- **Generate**: LLM creates SQL queries from natural language questions
+- **Execute**: Run the query against an event-sourced transactions database
+- **Reflect**: LLM evaluates whether the query results answer the original question
+- **Refine**: LLM generates improved SQL based on actual query output feedback
+
+**Key Concepts**: Text-to-SQL, reflection with external feedback, query refinement, event-sourced data modeling
