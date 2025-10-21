@@ -2,6 +2,7 @@
 aisuite==0.1.11
 anthropic
 docstring-parser
+google-genai
 markdown
 mistralai
 openai
@@ -21,6 +22,7 @@ sqlalchemy
 uvicorn
 
 # === Notebook Experience ===
+ipython
 ipywidgets
 jupyter_server
 nbclassic
@@ -30,6 +32,7 @@ notebook
 duckdb
 matplotlib
 pandas
+pillow
 seaborn
 tabulate
 tinydb
