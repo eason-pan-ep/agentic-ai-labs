@@ -22,24 +22,4 @@ An agentic workflow that generates data visualizations through iterative refinem
 - **Reflect**: LLM analyzes the chart image and critiques the output
 - **Refine**: LLM generates improved code based on visual feedback
 
-**Key Concepts**: Code generation, vision models, self-correction loops
-
-## Technologies
-
-- **LLM APIs**: OpenAI (GPT-4o, o1, o4), Google Gemini
-- **Data & Visualization**: pandas, matplotlib, seaborn
-- **Notebook Environment**: Jupyter, IPython
-- **Additional Tools**: FastAPI, scikit-learn, DuckDB, Tavily
-
-## Repository Structure
-
-```
-agentic-ai-labs/
-├── lab_1/                          # Lab 1: Chart generation
-│   ├── lab_1_chart_generation.ipynb
-│   ├── utils.py                    # Shared helper functions
-│   ├── .env.example                # Template for API keys
-│   └── coffee_sales.csv            # Sample dataset
-├── requirements.txt                # Python dependencies
-└── README.md
-```
+**Key Concepts**: Code generation, vision models, reflection loops
