@@ -18,7 +18,7 @@ from google import genai
 # === Env & Clients ===
 load_dotenv()
 openai_api_key = os.getenv("OPENAI_API_KEY")
-gemini_api_key = os.getenv("GEMINI_API_KEY")
+gemini_api_key = os.getenv("GOOGLE_API_KEY")
 
 # Both clients read keys from env by default; explicit is also fine:
 openai_client = OpenAI(api_key=openai_api_key) if openai_api_key else OpenAI()
