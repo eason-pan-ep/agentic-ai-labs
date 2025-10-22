@@ -32,3 +32,12 @@ An agentic workflow that improves SQL query generation through iterative refinem
 - **Refine**: LLM generates improved SQL based on actual query output feedback
 
 **Key Concepts**: Text-to-SQL, reflection with external feedback, query refinement, event-sourced data modeling
+
+### Lab 3: Turning Functions into Tools
+Demonstrates function calling and tool use with LLMs using the Google Gemini API:
+- **Function Declaration**: Convert Python functions into LLM-callable tools with automatic or manual schema definition
+- **Automatic Tool Calling**: Gemini SDK handles function execution and response integration automatically
+- **Multi-Tool Workflows**: Chain multiple tool calls in a single conversation turn
+- **Practical Tools**: Weather lookup, file writing, QR code generation with embedded images
+
+**Key Concepts**: Function calling, tool use, automatic function execution, multi-tool orchestration
