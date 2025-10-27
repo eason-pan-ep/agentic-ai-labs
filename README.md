@@ -41,3 +41,12 @@ Demonstrates function calling and tool use with LLMs using the Google Gemini API
 - **Practical Tools**: Weather lookup, file writing, QR code generation with embedded images
 
 **Key Concepts**: Function calling, tool use, automatic function execution, multi-tool orchestration
+
+### Lab 4: Component-Level Evaluation
+Demonstrates how to add component-level evaluation to agentic workflows to ensure quality and reliability:
+- **Research Pipeline**: Multi-tool research agent using arXiv, Tavily web search, and Wikipedia
+- **Domain-Based Evaluation**: Automated quality checks that verify research sources against trusted domain lists
+- **Component Testing**: Evaluate individual agent outputs (e.g., checking if search results come from reputable sources)
+- **Evaluation Metrics**: Pass/fail checks with detailed reports showing URL extraction, domain matching, and approval ratios
+
+**Key Concepts**: Component-level evaluation, quality assurance, trusted domain validation, research workflows
