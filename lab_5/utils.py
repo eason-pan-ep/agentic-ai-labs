@@ -2,10 +2,8 @@
 # Standard library imports
 # ================================
 import base64
-import json
-import re
 from html import escape
-from typing import Any, Optional
+from typing import Any
 
 # ================================
 # Third-party imports
