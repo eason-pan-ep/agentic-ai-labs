@@ -50,3 +50,12 @@ Demonstrates how to add component-level evaluation to agentic workflows to ensur
 - **Evaluation Metrics**: Pass/fail checks with detailed reports showing URL extraction, domain matching, and approval ratios
 
 **Key Concepts**: Component-level evaluation, quality assurance, trusted domain validation, research workflows
+
+### Lab 5: Customer Service Agent (Planning in Code)
+A customer service agent for a sunglasses store that uses "planning in code" — the LLM writes TinyDB Python as its plan, which is then executed in a controlled sandbox:
+- **Plan as Code**: LLM generates executable TinyDB queries wrapped in `<execute_python>` tags instead of calling predefined tools
+- **Sandbox Execution**: Generated code runs in a restricted namespace with DB table objects and helper functions injected
+- **Multi-Item Transactions**: One transaction row per item; stock validated before any mutation
+- **Structured Responses**: Executed code must set `answer_text` (customer-facing reply) and `STATUS` (`success`, `no_match`, `insufficient_stock`, `invalid_request`, `unsupported_intent`)
+
+**Key Concepts**: Planning in code, sandboxed code execution, TinyDB, dynamic query generation, structured LLM output contracts
